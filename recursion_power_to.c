@@ -17,6 +17,7 @@ int main(void)
 
 int calculate_power_to(int base, int exponent)
 {
+    // Define the base-case / stopping condition
     if (exponent == 0)
     {
         return 1;
